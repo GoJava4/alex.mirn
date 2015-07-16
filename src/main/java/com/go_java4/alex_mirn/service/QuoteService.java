@@ -14,6 +14,7 @@ public class QuoteService {
     QuoteDao quoteDao;
 
     public Quote getRandom() {
+
         return quoteDao.getRandom();
     }
 }
